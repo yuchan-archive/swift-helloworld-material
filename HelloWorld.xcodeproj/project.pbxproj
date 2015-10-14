@@ -14,6 +14,8 @@
 		707CF5DB1BCE70BF006FB423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707CF5D91BCE70BF006FB423 /* LaunchScreen.storyboard */; };
 		707CF5E61BCE70BF006FB423 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CF5E51BCE70BF006FB423 /* HelloWorldTests.swift */; };
 		707CF5F11BCE70BF006FB423 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CF5F01BCE70BF006FB423 /* HelloWorldUITests.swift */; };
+		707CF5FF1BCE7758006FB423 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CF5FE1BCE7758006FB423 /* MyTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		707CF6011BCE8626006FB423 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707CF6001BCE8626006FB423 /* SafariServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		707CF5EC1BCE70BF006FB423 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		707CF5F01BCE70BF006FB423 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		707CF5F21BCE70BF006FB423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707CF5FE1BCE7758006FB423 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		707CF6001BCE8626006FB423 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707CF6011BCE8626006FB423 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		707CF5C41BCE70BF006FB423 = {
 			isa = PBXGroup;
 			children = (
+				707CF6001BCE8626006FB423 /* SafariServices.framework */,
 				707CF5CF1BCE70BF006FB423 /* HelloWorld */,
 				707CF5E41BCE70BF006FB423 /* HelloWorldTests */,
 				707CF5EF1BCE70BF006FB423 /* HelloWorldUITests */,
@@ -99,6 +105,7 @@
 			children = (
 				707CF5D01BCE70BF006FB423 /* AppDelegate.swift */,
 				707CF5D21BCE70BF006FB423 /* ViewController.swift */,
+				707CF5FE1BCE7758006FB423 /* MyTableViewController.swift */,
 				707CF5D41BCE70BF006FB423 /* Main.storyboard */,
 				707CF5D71BCE70BF006FB423 /* Assets.xcassets */,
 				707CF5D91BCE70BF006FB423 /* LaunchScreen.storyboard */,
@@ -256,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				707CF5D31BCE70BF006FB423 /* ViewController.swift in Sources */,
+				707CF5FF1BCE7758006FB423 /* MyTableViewController.swift in Sources */,
 				707CF5D11BCE70BF006FB423 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

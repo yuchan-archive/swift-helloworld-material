@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.title = "hello world"
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +24,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func myButtonAction(sender:AnyObject) {
+        print("button pushed")
+        if let url:NSURL = NSURL(string: "https://github.com/") {
+            let safari:SFSafariViewController = SFSafariViewController(URL: url)
+            self.presentViewController(safari, animated: true, completion: { () -> Void in
+                
+            })
+        }
+    }
 }
 
